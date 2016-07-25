@@ -6,7 +6,7 @@ const logger = require('./logger');
 const options = {
 	url: 'https://www.rideindego.com/stations/json/',
 	headers: {
-		'User-Agent': 'Indego Nodejs API Library - https://github.com/kyleparisi/indego-nodejs-lib'
+		'User-Agent': 'Indego Nodejs API Library - https://github.com/kyleparisi/indego-api'
 	},
 	json: true
 };
