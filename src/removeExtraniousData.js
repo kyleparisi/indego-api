@@ -9,7 +9,7 @@ const keys = [
 	'addressZipCode',
 	'name'
 ];
-const removeExtraniousData = function (msg) {
+const removeExtraneousData = function (msg) {
 	logger('----- Remove extra data -----');
 
 	const stations = msg.features;
@@ -32,4 +32,4 @@ const removeExtraniousData = function (msg) {
 	return data;
 }
 
-module.exports = removeExtraniousData;
+module.exports = removeExtraneousData;
