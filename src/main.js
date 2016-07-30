@@ -1,5 +1,5 @@
 const request = require('request-promise');
-const removeExtraniousData = require('./removeExtraniousData');
+const removeExtraneousData = require('./removeExtraneousData');
 const filterOn = require('./filterOn');
 const logger = require('./logger');
 
@@ -15,7 +15,7 @@ const main = function (where) {
 	const filter = filterOn(where)
 
 	return request(options)
-		.then(removeExtraniousData)
+		.then(removeExtraneousData)
 		.then(logger)
 		.then(filter)
 		.then(logger)
