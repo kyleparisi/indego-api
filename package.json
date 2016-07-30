@@ -2,7 +2,7 @@
   "name": "indego-api",
   "version": "1.0.0",
   "description": "Brief wrapper around the indego json data endpoint, allows to search",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
