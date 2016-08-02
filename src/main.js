@@ -18,8 +18,8 @@ const main = function (where) {
 		.then(removeExtraneousData)
 		.then(logger)
 		.then(filter)
-		.then(logger)
-		.then(data => JSON.stringify(data));
+		.then(logger);
+		
 }
 
 module.exports = main;
